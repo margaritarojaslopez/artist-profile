@@ -1,0 +1,283 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    background-color:#ffff;
+    color:#555555;
+    font: normal 16 px Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.topnav {
+    width: 100%;
+    height: 55px;
+    background-color: #333;
+    box-shadow: 0 5px 5px -3px black;
+    display: block;   
+}
+
+.topnav h1 {
+    color: #ffff;
+    float: left;
+    margin: 0;
+    padding: 5px 0px 0px 20px;
+    
+}
+
+.topnav ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav li {
+    float: right;
+}
+
+.topnav a {
+    
+    display: block;
+    color: #D1D7E0;
+    text-align: center;
+    padding: 17px 16px;
+    text-decoration: none;
+    
+  }
+
+ .topnav a:hover {
+    color: #111;
+  }
+
+  
+
+.artist-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+    margin: 15px;
+    padding: 20px;
+
+}
+
+.artist-info-box {
+    width: 240px;
+    margin: 30px 0px 30px 20px;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.artist-info-box h2, 
+.artist-info-box p,
+.artist-info-box p,
+.artist-info-box a {
+    text-align: center;
+    margin: 0px;
+    color: #19181A;
+}
+
+.artist-info-box h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.artist-info-box p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.artist-info-box a {
+    font-family: 'Merriweather', serif;
+}
+
+p.statement {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.artist-info-box {
+    padding: 20px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+     
+}
+
+.artist-info {
+    margin: 0px 300px 30px 300px;
+    
+}
+
+.artist-abstract-background {
+    background-image: url('../img/pattern6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width:100%;    
+    height: auto;
+    border-radius: 9px;
+    
+}
+
+
+
+.gallery-img {
+    background-color: #E3E2DF;
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    margin: 0px 250px 30px 250px; 
+    justify-content: space-evenly;
+    grid-gap: 10px;
+    padding: 30px;
+}
+
+.artist-work-img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+  
+
+}
+
+.artist-work-img img {
+    max-width: 236px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+  @media screen and (max-width: 900px) {
+    .grid-container {
+        grid-template-columns: 100%;
+    }
+
+    }
+
+.footer-info {
+    width: 100%;
+    height: 270px;
+    background-color: #333;
+    margin: 0px;
+    padding: 30px 15px 15px 15px;
+    text-align: left;
+    display: block;
+      
+}
+.footer-info h1 {
+    color: #ffff;
+    margin: 0;
+    padding: 5px 0px 0px 20px;    
+
+}
+
+.footer-info ul {
+ list-style: none;
+ text-decoration: none;
+ margin: 0px;
+ padding: 0px;
+ line-height: 3;
+
+}
+
+.footer-info li {
+    color: #D1D7E0;
+    font-size: 15px;
+    padding-left: 19px;
+    
+}
+
+.footer-info a {
+    display: inline;
+    color: #ffff;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-size-adjust: 100%;
+    align-items: center;
+    font-size: 17px;    
+}
+
+.footer-info a:hover {
+    color: #111;
+  }
+
+
+.landing .topnav {
+    
+    width: 100%;
+    height: 500px; 
+    background-color: #333;
+    display: block;
+    box-shadow: none;
+
+  
+}
+.landing .topnav h1 {
+    margin: 0px 50px 0px 0px;
+    padding: 40px 0px 0px 50px;
+}
+
+.landing .topnav a {
+    color: #ffff; 
+    font-size: 25x; 
+
+}
+
+.landing .topnav a:hover {
+    color: #111;
+  }
+
+.landing .topnav ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px 50px 0px 0px;
+    padding: 40px 0px 0px 0px;
+}
+
+
+.expl-idea{
+    margin: 0px;
+    width: 100%;
+    height: 500px; 
+
+}
+
+.expl-idea .img-background {
+    background-image: url('../img/newshape1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;   
+    height: 500px;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.web-img {
+    margin: 0px;
+    width: 100%;
+    height: 500px;
+    background-color: #f3f3f3; 
+
+}
+
+.web-img .web-artist-profile-img {
+    
+
+
+}
+
+.join {
+    margin: 0px;
+    width: 100%;
+    height: 500px;
+    background-color: #ffff;
+
+}
